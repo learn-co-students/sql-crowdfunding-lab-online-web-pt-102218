@@ -1,12 +1,13 @@
-INSERT INTO projects VALUES (1, "voice_recorder", "music", 500000, "February 1st, 2019", "March 31st, 2019");
-INSERT INTO projects VALUES (2, "lawn_mower", "landscape", 400000, "March 15th, 2019", "June 1st, 2019" );
-INSERT INTO projects VALUES (3, "data_maker", "computers", 100000, "January 31st, 2019", "April 2nd, 2019");
-INSERT INTO projectS VALUES (4, "dress_chic", "fashion", 200000, "January 3rd, 2019", "January 19th, 2019");
-INSERT INTO projects VALUES (5,"enviro_breath", "environment", 300000, "January 16th, 2019", "April 15th, 2019");
-INSERT INTO projects VALUES (6, "happy_sun", "living", 100000, "June 1st, 2019", "July 31st, 2019");
-INSERT INTO projects VALUES (7, "quilter", "outreach", 70000, "January 21st, 2019, Febuary 1st, 2019");
-INSERT INTO projects VALUES (8, "globe_start", "education", 500000, "Febuary 15th, 2019", "April 1st, 2019");
-INSERT INTO projects VALUES (9, "sticky_icky", "play", 300000, "Febuary 21st, 2019", "May 15th, 2019");
-INSERT INTO projects VALUES (10, "music_box", "music", 600000, "March 2nd, 2019", "June 14th, 2019");
+INSERT INTO projects (id, title, category, funding_goal, start_date, end_date) VALUES (1, "voice_recorder", "music", 500000, "February 1, 2019", "March 31, 2019");
+INSERT INTO projects (id, title, category, funding_goal, start_date, end_date) VALUES (2, "lawn_mower", "landscape", 400000, "March 15, 2019", "June 1, 2019" );
+INSERT INTO projects (id, title, category, funding_goal, start_date, end_date) VALUES (3, "data_maker", "computers", 100000, "January 31, 2019", "April 2, 2019");
+INSERT INTO projects (id, title, category, funding_goal, start_date, end_date) VALUES (4, "dress_chic", "fashion", 200000, "January 3rd, 2019", "January 19th, 2019");
+INSERT INTO projects (id, title, category, funding_goal, start_date, end_date) VALUES (5, "enviro_breath", "environment", 300000, "January 16, 2019", "April 15, 2019");
+INSERT INTO projects (id, title, category, funding_goal, start_date, end_date) VALUES (6, "happy_sun", "living", 100000, "June 1, 2019", "July 31, 2019");
+INSERT INTO projects(id, title, category, funding_goal, start_date, end_date) VALUES (7, "quilter", "outreach", 70000, "January 21st, 2019", "Febuary 1st, 2019");
+INSERT INTO projects (id, title, category, funding_goal, start_date, end_date) VALUES (8, "globe_start", "education", 500000, "Febuary 15th, 2019", "April 1st, 2019");
+INSERT INTO projects (id, title, category, funding_goal, start_date, end_date) VALUES (9, "sticky_icky", "play", 300000, "Febuary 21st, 2019", "May 15th, 2019");
+INSERT INTO projects (id, title, category, funding_goal, start_date, end_date) VALUES (10, "music_box", "music", 600000, "March 2nd, 2019", "June 14th, 2019");
 
-#INSERT INTO users VALUES (1, )
+INSERT INTO users(name, age) VALUES ("Joy", 29), ("Bubbly", 34), ("RollerCoaster", 50), ("Remy", 25), ("Kat", 42), ("Mat", 30), ("Prince", 65), ("Yolandi", 40), ("Marjo", 83), ("Tiffany", 30), ("Raphael", 60), ("Hanifah", 15), ("Rupert", 5), ("Jessica", 37), ("DJ HighTech", 50), ("Holly", 10), ("Rose", 24), ("Hope", 78), ("Ben", 46), ("Gwen", "50");
+INSERT INTO pledges(amount, user_id, project_id) VALUES (100, 1, 3), (500, 1, 5), (43, 2, 16), (5000, 3, 8), (3000, 3, 10), (250, 4, 8), (80, 4, 9), (6000, 7, 1), (8000, 5, 10), (90, 6, 19), (12000, 8, 20), (35000, 8, 15), (40000, 8, 12), (120000, 8, 4), (4000, 9, 15), (96, 10, 17), (34, 10, 14), (130, 11, 18), (250, 12, 3), (10, 13, 7), (1900, 14, 2), (400, 14, 3), (60, 15, 9), (670, 16, 16), (890, 16, 18), (90, 17, 13), (130, 18, 15), (160, 18, 6), (120, 19, 13), (1400, 20, 20);
