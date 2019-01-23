@@ -19,7 +19,7 @@ INSERT INTO users (name, age) VALUES ("Mike", 56);
 INSERT INTO users (name, age) VALUES ("Brie", 23);
 INSERT INTO users (name, age) VALUES ("Lauren", 21);
 
-	INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Slapchop", "Household", 10000, '03-18-2019', '04-18-2019');
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Slapchop", "Household", 10000, '03-18-2019', '04-18-2019');
 INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Schticky", "Household", 20000, '02-18-2019', '04-18-2019');
 INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Shamwow", "Household", 100000, '03-18-2018', '03-18-2019');
 INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("OxyClean", "Household", 1000, '03-18-2016', '04-18-2018');
@@ -29,7 +29,6 @@ INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUE
 INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Slapchop", "Household", 10000, '03-18-2019', '04-18-2019');
 INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Slapchop", "Household", 10000, '03-18-2019', '04-18-2019');
 INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Slapchop", "Household", 10000, '03-18-2019', '04-18-2019');
-
 
 INSERT INTO pledges (amount, user_id, project_id) VALUES (100, 1, 4);
 INSERT INTO pledges (amount, user_id, project_id) VALUES (100, 1, 4);
